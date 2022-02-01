@@ -102,6 +102,7 @@ label {
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  vertical-align: middle;
 }
 
 .group-item-img {
