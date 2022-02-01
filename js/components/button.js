@@ -9,7 +9,7 @@ export class button {
 
 static add(title, $id) {
     let $new = new button(title, $id);
-    insert($new.element, id("categories"));
+    insert($new.element, id("btn-container"));
 
     id($new.btnid).addEventListener("click", () => {
       /*
