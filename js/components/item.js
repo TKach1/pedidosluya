@@ -54,30 +54,30 @@ export class item {
     });
 
     
-    document.getElementById("search").addEventListener("keyup", function(){ //sistema de procura
+    document.getElementById("search").addEventListener("keypress", function(e){ //sistema de procura
+      if (e.key === 'Enter') {
+        // code for enter
+        var els = document.getElementsByClassName("group-item-name");
+        var found = [];
+        var r = document.getElementById("search").value;
+        r = r.toLowerCase();
+        Array.prototype.forEach.call(els, function(el) {
+          if(el.firstChild.data.toLowerCase().match(r)){
+            
+            found.push(el);
+            el.parentNode.classList.remove("hidden");
+            el.parentNode.classList.add("group-item");
+          }else{
+            el.parentNode.parentNode.classList.add("hidden");
+            el.parentNode.classList.add("hidden");
+            el.parentNode.classList.remove("group-item");
+          }
+        });
 
-      var els = document.getElementsByClassName("group-item-name");
-      var found = [];
-      var r = document.getElementById("search").value;
-      r = r.toLowerCase();
-      Array.prototype.forEach.call(els, function(el) {
-        if(el.firstChild.data.toLowerCase().match(r)){
-          
-          found.push(el);
-          el.parentNode.classList.remove("hidden");
-          el.parentNode.classList.add("group-item");
-        }else{
-          el.parentNode.parentNode.classList.add("hidden");
-          el.parentNode.classList.add("hidden");
-          el.parentNode.classList.remove("group-item");
-        }
-      });
-
-
-      Array.prototype.forEach.call(found, function(es) {
-        es.parentNode.parentNode.classList.remove("hidden");
-      });
-
+        Array.prototype.forEach.call(found, function(es) {
+          es.parentNode.parentNode.classList.remove("hidden");
+        });
+      }
     })
 
     this.id++;
