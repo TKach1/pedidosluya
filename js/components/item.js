@@ -53,17 +53,27 @@ export class item {
       list.def();
     });
 
+    function delay(callback, ms) {
+      var timer = 0;
+      return function() {
+        var context = this, args = arguments;
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          callback.apply(context, args);
+        }, ms || 0);
+      };
+    }
     
-    document.getElementById("search").addEventListener("keypress", function(e){ //sistema de procura
-      if (e.key === 'Enter') {
+    document.getElementById("search").addEventListener("keyup", delay(function(e){ //sistema de procura
+      //if (e.key === 'Enter') {
         // code for enter
         var els = document.getElementsByClassName("group-item-name");
         var found = [];
         var r = document.getElementById("search").value;
         r = r.toLowerCase();
+        if(r.length >= 2){
         Array.prototype.forEach.call(els, function(el) {
-          if(el.firstChild.data.toLowerCase().match(r)){
-            
+          if(el.firstChild.data.toLowerCase().includes(r)){
             found.push(el);
             el.parentNode.classList.remove("hidden");
             el.parentNode.classList.add("group-item");
@@ -78,7 +88,7 @@ export class item {
           es.parentNode.parentNode.classList.remove("hidden");
         });
       }
-    })
+    }, 200))
 
     this.id++;
 
