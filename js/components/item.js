@@ -71,7 +71,7 @@ export class item {
         var found = [];
         var r = document.getElementById("search").value;
         r = r.toLowerCase();
-        if(r.length >= 2){
+        if(r.length >= 2 || r.length == 0){
         Array.prototype.forEach.call(els, function(el) {
           if(el.firstChild.data.toLowerCase().includes(r)){
             found.push(el);
