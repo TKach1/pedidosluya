@@ -178,14 +178,15 @@ item.add("Amendoim S/ Pele e C/ Sal" , "3.10", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim Tradicional" , "3.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo" , "10.00", "Batata Chips Queijo.jpg", "ape");
 item.add("Drageado Caramelo Gold", "19.00", "Drageado Caramelo Gold.jpg", "ape");
-item.add("Drageado de Cappuccino", "19.00", "", "ape");//a
-item.add("Drageado Caju Bland", "19.00", "", "ape");//a
-item.add("Drageado de Nutella" , "19.00", "", "ape");//a
-item.add("Drageado de Uva Passa" , "12.00", "", "ape");//a
-item.add("Drageado de Banana" , "10.00", "", "ape");//a
-item.add("Drageado de Cereja" , "19.00", "", "ape");//a
-item.add("Drageado Praline de Amêndoas" , "19.00", "", "ape");//a
-item.add("Drageado de Maracujá Gourmet" , "19.00", "", "ape");//a
+item.add("Drageado de Cappuccino", "19.00", "capuccino.jpeg", "ape");
+item.add("Drageado Crocante", "10.00", "crocante.jpeg", "ape");
+item.add("Drageado Caju Bland", "19.00", "caju.jpeg", "ape");
+item.add("Drageado de Nutella" , "19.00", "nutellas.jpeg", "ape");
+item.add("Drageado de Uva Passa" , "12.00", "uvapassa.jpeg", "ape");
+item.add("Drageado de Banana" , "10.00", "banana.jpeg", "ape");
+item.add("Drageado de Cereja" , "19.00", "dragxereja.jpeg", "ape");
+item.add("Drageado Praline de Amêndoas" , "19.00", "praline.jpeg", "ape");
+item.add("Drageado de Maracujá Gourmet" , "19.00", "dragmarac.jpeg", "ape");
 item.add("Fini Amora" , "6.00", "AMORAS-2.webp", "ape");
 item.add("Fini Bananinha" , "6.00", "Fini Bananinha.jpg", "ape");
 item.add("Fini Beijos de Morango" , "6.00", "Beijos-de-morango-2.webp", "ape");
@@ -198,11 +199,11 @@ item.add("Laranja Cristal Tiras" , "7.00", "Laranja Cristal Tiras.webp", "ape");
 item.add("Limão Cristal Tiras" , "10.00", "Limão Cristal Tiras.jpg", "ape");
 item.add("Milho Espanhol Mostarda/Mel" , "7.00", "Milho Espanhol MostardaMel.jpg", "ape");
 item.add("Snack Cebola/Salsa" , "10.00", "Snack CebolaSalsa.webp", "ape");
-item.add("Uai Casadinha" , "4.00", "", "ape");//a
-item.add("Uai Vaidosa" , "4.00", "", "ape");//a
+item.add("Uai Casadinha" , "4.00", "uaicasada.jpeg", "ape");
+item.add("Uai Vaidosa" , "4.00", "uaivaidosa.jpeg", "ape");
 item.add("Uai Laka" , "4.00", "Uai Laka.jpg", "ape");
-item.add("Uai Torrada Alho" , "5.00", "", "ape");//a
-item.add("Uai Torrada Bacon" , "5.00", "", "ape");//a
+item.add("Uai Torrada Alho" , "5.00", "torradinha.jpeg", "ape");
+item.add("Uai Torrada Bacon" , "5.00", "torradinha.jpeg", "ape");
 
 category.add("Confeitaria", "conf");
 item.add("Açúcar de coco" , "7.70", "Açúcar de coco.webp", "conf");
