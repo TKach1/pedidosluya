@@ -1,7 +1,7 @@
 import { category, item, waAPI, button } from "./main.js";
 
 waAPI.countryCode = 55; // COUNTRY CODE
-waAPI.number = 4196613842; // PHONE NUMBER
+waAPI.number = 4198979765; // PHONE NUMBER
 item.currency = "R$"; // CURRENCY
 
 button.add("Temperos e Especiarias", "tempero");
