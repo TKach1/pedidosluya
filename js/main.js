@@ -27,3 +27,15 @@ none(id("list"));
 id("btn-finish").addEventListener("click", () => {
   visibility(id("list"));
 });
+
+id("buttonback").addEventListener("click", () => {
+  console.log("btn-back");
+  $('html, body').animate({ scrollTop: 0 }, 'fast');
+});
+
+$(window).on("navigate", function (event, data) {
+  var direction = data.state.direction;
+  if (direction == 'back') {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  }
+});

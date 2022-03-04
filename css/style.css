@@ -40,6 +40,39 @@ label {
   text-align: center;
 }
 
+.backbutton{
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: min-content;
+  bottom: 0;
+}
+
+#buttonback{
+  all: unset;
+  padding: 0.5rem 0;
+  min-width: 115px;
+  background: #FFF;
+  color: #574145;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.7s;
+  text-align: center;
+  display: block;
+  margin-left: auto;  
+}
+
+#buttonback:hover {
+  cursor: pointer;
+  background: #a86371;
+  color: #FFF;
+}
+
+#buttonback:active {
+  background: #a86371;
+}
+
 #search {
   display: block;
   text-align: center;
