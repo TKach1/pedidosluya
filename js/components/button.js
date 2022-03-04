@@ -44,3 +44,10 @@ get element() {
     `;
   }
 }
+
+$(window).on("navigate", function (event, data) {
+  var direction = data.state.direction;
+  if (direction == 'back') {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  }
+});
