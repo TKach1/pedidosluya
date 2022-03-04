@@ -15,7 +15,6 @@ button.add("Confeitaria", "conf");
 category.add("Temperos e Especiarias", "tempero");
 item.add("Açafrão em pó", "2.20", "açafrao.jpg", "tempero");
 item.add("Alecrim", "4.20", "alecrim_desidratado.webp", "tempero");
-item.add("Alecrim2", "3.20", "alecrim_desidratado.webp", "tempero");
 item.add("Alho em Pó", "2.20", "alhoempo.jpg", "tempero");
 item.add("Alho Granulado", "4.80", "alho-granulado.jpg", "tempero");
 item.add("Alho Poró", "5.20", "alho_poro.jpg", "tempero");
