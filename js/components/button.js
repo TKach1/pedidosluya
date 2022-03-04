@@ -7,7 +7,10 @@ export class button {
     this.btnid = id + "-btn"
   }
 
+  
 static add(title, $id) {
+  
+
     let $new = new button(title, $id);
     insert($new.element, id("btn-container"));
 
@@ -37,17 +40,9 @@ static add(title, $id) {
     });
     
 }
-
 get element() {
     return `
       <button class="button-release" id="${this.btnid}">${this.title}</button>
     `;
   }
 }
-
-$(window).on("navigate", function (event, data) {
-  var direction = data.state.direction;
-  if (direction == 'back') {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
-  }
-});
