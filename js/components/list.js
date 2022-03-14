@@ -8,15 +8,19 @@ export class list {
     this.total = total;
   }
 
+  static $discount = 1.0;
+  static $promo = id("promo");
   static $content = "";
   static $total = 0;
   static $totalDisplay = id("list-total");
   static $address = id("address");
   static $nome = id("nome");
   static $list = id("list-items");
+  static $discountshow = false;
 
   static def() { //prepara mensagem para Whatsapp
-
+    
+  
     this.$list.innerHTML = "";
 
     this.$total = 0;
@@ -31,12 +35,18 @@ export class list {
       }
     }
 
-    this.$content += `\nTotal: *${item.currency}${this.$total.toFixed(2).toString().replace(".", ",")}*\nEndereço: *${this.$address.value}*`;
+    this.$total *= this.$discount;
+    this.$content += `\nTotal: *${item.currency} ${this.$total.toFixed(2).toString().replace(".", ",")}*
+                      \nEndereço: *${this.$address.value}*`;
     this.$content += `\nPedido em nome de: *${this.$nome.value}*`;
+    
+    if(this.$discountshow){
+      this.$content += `\n Cupom Aplicado: *${this.$promo.value}*`;
+    }
+    
     this.$totalDisplay.innerText = `${item.currency}${this.$total.toFixed(2).toString().replace(".", ",")}`;
 
   }
-
   get element() { //retorna para o carrinho de compras
     return `<li class="list-item">${this.un}g - ${this.name} = ${item.currency}${this.total.toFixed(2).toString().replace(".", ",")}</li>`;
   }

@@ -28,6 +28,45 @@ id("btn-finish").addEventListener("click", () => {
   visibility(id("list"));
 });
 
+function delay(callback, ms) {
+  var timer = 0;
+  return function() {
+    var context = this, args = arguments;
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      callback.apply(context, args);
+    }, ms || 0);
+  };
+}
+
+id("promo").addEventListener("keyup", delay(function(e){
+  var r = document.getElementById("promo").value;
+  var col=document.getElementById("promo");
+  var text=document.getElementById("cupom");
+  if(r == "NutriIndiara10"){
+    list.$discount = 0.9;
+    list.$discountshow = true;
+    text.innerHTML = "Cupom Aplicado!";
+    col.style.border = "2px solid green";
+  } else if (r == "Sextou10"){
+    list.$discount = 0.9;
+    list.$discountshow = true;
+    text.innerHTML = "Cupom Aplicado!";
+    col.style.border = "2px solid green";
+  } else if (r == "Luya15"){
+    list.$discount = 0.85;
+    list.$discountshow = true;
+    text.innerHTML = "Cupom Aplicado!";
+    col.style.border = "2px solid green";
+  } else {
+    list.$discountshow = false;
+    list.$discount = 1.0;
+    text.innerHTML = "Cupom Invalido!";
+    col.style.border = "2px solid red";
+  }
+  list.def();
+}, 200))
+
 id("buttonback").addEventListener("click", () => {
   console.log("btn-back");
   $('html, body').animate({ scrollTop: 0 }, 'fast');

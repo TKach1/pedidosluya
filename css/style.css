@@ -340,6 +340,14 @@ label {
   color: #FFF;
 }
 
+#promo{
+  all: unset;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+  padding: 0.2rem;
+  color: #FFF;
+}
+
 #btn-finish {
   all: unset;
   padding: 0.5rem 0;
