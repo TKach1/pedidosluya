@@ -5,6 +5,7 @@ import { list } from "./components/list.js";
 import { insert, id } from "./methods/dom.js";
 import { block, none, visibility } from "./methods/style.js";
 import { waAPI } from "./methods/whatsAppAPI.js";
+import { cupons } from "./def.js";
 
 export { waAPI }
 export { button }
@@ -43,36 +44,21 @@ id("promo").addEventListener("keyup", delay(function(e){ //area de cupons
   var r = document.getElementById("promo").value;
   var col=document.getElementById("promo");
   var text=document.getElementById("cupom");
-  if(r == "NutriIndiara10"){
-    list.$discount = 0.9;
-    list.$discountshow = true;
-    text.innerHTML = "Cupom Aplicado!";
-    col.style.border = "2px solid green";
-  } else if (r == "Sextou10"){
-    list.$discount = 0.9;
-    list.$discountshow = true;
-    text.innerHTML = "Cupom Aplicado!";
-    col.style.border = "2px solid green";
-  } else if (r == "Luya15"){
-    list.$discount = 0.85;
-    list.$discountshow = true;
-    text.innerHTML = "Cupom Aplicado!";
-    col.style.border = "2px solid green";
-  } else if (r == "BNI5"){
-    list.$discount = 0.95;
-    list.$discountshow = true;
-    text.innerHTML = "Cupom Aplicado!";
-    col.style.border = "2px solid green";
-  } else if (r == "COMPRA1"){
-    list.$discount = 0.95;
-    list.$discountshow = true;
-    text.innerHTML = "Cupom Aplicado!";
-    col.style.border = "2px solid green";
-  } else {
-    list.$discountshow = false;
-    list.$discount = 1.0;
-    text.innerHTML = "Cupom Invalido!";
-    col.style.border = "2px solid red";
+  for(var i=0; i<cupons.length; i++){
+    console.log(cupons[i][0]);
+    if(r == cupons[i][0]){
+      list.$discount = 1.0 - (cupons[i][1]/100);
+      list.$discountshow = true;
+      text.innerHTML = "Cupom Aplicado!";
+      col.style.border = "2px solid green";
+      list.def();
+      return;
+    }else{
+      list.$discountshow = false;
+      list.$discount = 1.0;
+      text.innerHTML = "Cupom Invalido!";
+      col.style.border = "2px solid red";
+    }
   }
   list.def();
 }, 200))

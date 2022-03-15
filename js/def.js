@@ -1,8 +1,16 @@
-import { category, item, waAPI, button } from "./main.js";
+import { category, item, waAPI, button} from "./main.js";
 
 waAPI.countryCode = 55; // COUNTRY CODE
 waAPI.number = 4198979765; // PHONE NUMBER
 item.currency = "R$"; // CURRENCY
+
+export let cupons = [
+    ["Luya15", 15],
+    ["NutriIndiara10", 10],
+    ["Sextou10", 10],
+    ["BNI5", 5],
+    ["COMPRA1", 5],
+]
 
 button.add("Temperos e Especiarias", "tempero");
 button.add("Ervanário", "ervanario");
