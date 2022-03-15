@@ -58,6 +58,11 @@ id("promo").addEventListener("keyup", delay(function(e){
     list.$discountshow = true;
     text.innerHTML = "Cupom Aplicado!";
     col.style.border = "2px solid green";
+  } else if (r == "BNI5"){
+    list.$discount = 0.95;
+    list.$discountshow = true;
+    text.innerHTML = "Cupom Aplicado!";
+    col.style.border = "2px solid green";
   } else {
     list.$discountshow = false;
     list.$discount = 1.0;
