@@ -39,7 +39,7 @@ function delay(callback, ms) {
   };
 }
 
-id("promo").addEventListener("keyup", delay(function(e){
+id("promo").addEventListener("keyup", delay(function(e){ //area de cupons
   var r = document.getElementById("promo").value;
   var col=document.getElementById("promo");
   var text=document.getElementById("cupom");
@@ -59,6 +59,11 @@ id("promo").addEventListener("keyup", delay(function(e){
     text.innerHTML = "Cupom Aplicado!";
     col.style.border = "2px solid green";
   } else if (r == "BNI5"){
+    list.$discount = 0.95;
+    list.$discountshow = true;
+    text.innerHTML = "Cupom Aplicado!";
+    col.style.border = "2px solid green";
+  } else if (r == "COMPRA1"){
     list.$discount = 0.95;
     list.$discountshow = true;
     text.innerHTML = "Cupom Aplicado!";
