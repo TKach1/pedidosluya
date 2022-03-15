@@ -45,7 +45,6 @@ id("promo").addEventListener("keyup", delay(function(e){ //area de cupons
   var col=document.getElementById("promo");
   var text=document.getElementById("cupom");
   for(var i=0; i<cupons.length; i++){
-    console.log(cupons[i][0]);
     if(r == cupons[i][0]){
       list.$discount = 1.0 - (cupons[i][1]/100);
       list.$discountshow = true;
