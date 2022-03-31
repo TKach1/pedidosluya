@@ -70,7 +70,7 @@ item.add("Zimbro" , "12.00", "Zimbro.png", "tempero");
 
 category.add("Ervanário", "ervanario");
 
-item.add("Amora" , "3.60", "AmoraSeca.webp", "ervanario");
+item.add("Amora" , "3.90", "AmoraSeca.webp", "ervanario");
 item.add("Anis Estrelado" , "18.50", "AnisEstrelado.jpg", "ervanario");
 item.add("Boldo" , "9.00", "boldo.jpg", "ervanario");
 item.add("Camomila" , "8.80", "Camomila.jpg", "ervanario");
