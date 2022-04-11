@@ -139,7 +139,7 @@ item.add("Farinha de Linhaça Dourada" , "3.00", "Farinha de Linhaça Dourada.we
 item.add("Farinha Maca Peruana" , "6.80", "Farinha Maca Peruana.webp", "farin");
 item.add("Farinha de Quinoa" , "4.90", "Farinha de Quinoa.jpg", "farin");
 item.add("Farelo de Aveia", "1.70", "Farelo de Aveia.webp", "farin");
-item.add("Psyllium" , "10.00", "Psyllium.webp", "farin");
+item.add("Psyllium" , "12.00", "Psyllium.webp", "farin");
 
 category.add("Grãos/ Sementes", "graos");
 item.add("Arroz Agulhinha Integral" , "1.60", "Arroz Agulhinha Integral.png", "graos");
