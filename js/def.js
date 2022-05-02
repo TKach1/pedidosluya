@@ -10,6 +10,7 @@ export let cupons = [
     ["Sextou10", 10],
     ["BNI5", 5],
     ["COMPRA1", 5],
+     ["NIVER1ANO", 15],
 ]
 
 button.add("Temperos e Especiarias", "tempero");
