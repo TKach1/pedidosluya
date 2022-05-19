@@ -11,6 +11,7 @@ export let cupons = [
     ["BNI5", 5],
     ["COMPRA1", 5],
     ["NIVER1ANO", 10],
+    ["ASSURBS", 15],
 ]
 
 button.add("Temperos e Especiarias", "tempero");
@@ -57,10 +58,9 @@ item.add("Orégano" , "5.00", "Oregano.webp", "tempero");
 item.add("Páprica Doce" , "2.50", "PapricaDoce.webp", "tempero");
 item.add("Páprica Defumada" , "2.50", "PapricaDefumada.webp", "tempero");
 item.add("Páprica Picante" , "2.50", "PapricaPicante.jpg", "tempero");
-item.add("Pimenta Caiena" , "4.20", "PimentaCaiena.webp", "tempero");
 item.add("Pimenta Calabresa" , "6.50", "pimentaCalabresaFlocos.jpg", "tempero");
 item.add("Pimenta Preta" , "4.00", "PimentaPreta.png", "tempero");
-item.add("Pimenta Rosa Grãos" , "14.00", "pimentarosagraos.jpg", "tempero");
+item.add("Pimenta Rosa Grãos EM FALTA" , "14.00", "pimentarosagraos.jpg", "tempero");
 item.add("Sal Rosa Fino" , "1.50", "SalRosaFino.jpg", "tempero");
 item.add("Sal Rosa Grosso" , "1.50", "SalRosaGrosso.webp", "tempero");
 item.add("Salsa Desidratada" , "4.00", "SalsaDesidratada.jpg", "tempero");
@@ -72,7 +72,7 @@ item.add("tempero para feijão" , "4.00", "", "tempero");
 
 category.add("Ervanário", "ervanario");
 
-item.add("Amora" , "3.90", "AmoraSeca.webp", "ervanario");
+item.add("Amora EM FALTA" , "3.90", "AmoraSeca.webp", "ervanario");
 item.add("Anis Estrelado" , "18.50", "AnisEstrelado.jpg", "ervanario");
 item.add("Boldo" , "11.00", "boldo.jpg", "ervanario");
 item.add("Camomila" , "8.80", "Camomila.jpg", "ervanario");
@@ -89,14 +89,13 @@ item.add("Erva Mate" , "2.50", "ErvaMate.jpg", "ervanario");
 item.add("Espinheira Santa" , "5.30", "EspinheiraSanta.webp", "ervanario");
 item.add("Eucalipto Folhas" , "2.00", "EucaliptoFolhas.webp", "ervanario");
 item.add("Folha de Maracujá" , "12.00", "FolhadeMaracuja.webp", "ervanario");
-item.add("Ginkgo biloba" , "8.00", "Ginkgobiloba.jpeg", "ervanario");
 item.add("Graviola" , "3.10", "GraviolaSeca.jpg", "ervanario");
 item.add("Guaco" , "5.00", "Guaco.jpg", "ervanario");
 item.add("Hibiscos" , "4.60", "Hibiscos.jpg", "ervanario");
 item.add("Hortelã" , "3.50", "Hortela.webp", "ervanario");
 item.add("Macela" , "8.00", "Macela.jpg", "ervanario");
 item.add("Malva" , "3.50", "Malva.jpeg", "ervanario");
-item.add("Mate tostado EM FALTA" , "2.00", "Matetostado.jpg", "ervanario");
+item.add("Mate tostado" , "2.00", "Matetostado.jpg", "ervanario");
 item.add("Melissa" , "5.30", "planta-melissa.jpg", "ervanario");
 item.add("Quebra Pedra" , "9.00", "Quebra Pedra.jpg", "ervanario");
 item.add("Sene Folhas" , "1.80", "Sene Folhas.webp", "ervanario");
@@ -171,7 +170,7 @@ item.add("Aipim Chips Churrasco" , "9.00", "Aipim Chips.png", "ape");
 item.add("Amendoim Cebola e Salsa" , "3.50", "Amendoim Cebola e Salsa.webp", "ape");
 item.add("Amendoim com Chocolate" , "4.00", "Amendoim com Chocolate.webp", "ape");
 item.add("Amendoim Caramelizado" , "3.90", "amendoim-caramelado.jpg", "ape");
-item.add("Amendoim Japonês" , "3, 50", "Amendoim Japonês.webp", "ape");
+item.add("Amendoim Japonês" , "3.50", "Amendoim Japonês.webp", "ape");
 item.add("Amendoim Picante" , "3.50", "amendoim-picante-kg.png", "ape");
 item.add("Amendoim S/ Pele e S/ Sal" , "3.10", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim S/ Pele e C/ Sal EM FALTA" , "3.10", "amendoim_sem_pele.webp", "ape");
@@ -179,12 +178,12 @@ item.add("Amendoim Tradicional" , "3.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo" , "12.00", "batata-chips-mexicana.jpg", "ape");
 item.add("Drageado de Cappuccino", "19.00", "capuccino.jpeg", "ape");
 item.add("Drageado Crocante", "12.00", "crocante.jpeg", "ape");
-item.add("Drageado Caju Bland", "19.00", "caju.jpeg", "ape");
+item.add("Drageado Caju Bland EM FALTA", "19.00", "caju.jpeg", "ape");
 item.add("Drageado de Nutella" , "19.00", "nutellas.jpeg", "ape");
 item.add("Drageado de Uva Passa" , "12.00", "uvapassa.jpeg", "ape");
 item.add("Drageado de Banana" , "12.00", "banana.jpeg", "ape");
 item.add("Drageado de Cereja" , "19.00", "dragxereja.jpeg", "ape");
-item.add("Drageado Praline de Amêndoas" , "19.00", "praline.jpeg", "ape");
+item.add("Drageado Praline de Amêndoas EM FALTA" , "19.00", "praline.jpeg", "ape");
 item.add("Drageado de Maracujá Gourmet" , "19.00", "dragmarac.jpeg", "ape");
 item.add("Fini Amora" , "7.00", "AMORAS-2.webp", "ape");
 item.add("Fini Bananinha" , "7.00", "Fini Bananinha.jpg", "ape");
@@ -199,9 +198,9 @@ item.add("Milho Espanhol Mostarda/Mel" , "7.00", "Milho Espanhol MostardaMel.jpg
 item.add("Snack Frango" , "10.00", "Snack CebolaSalsa.webp", "ape");
 item.add("Biscoito Vaidosa " , "4.20", "Vaidosa.jpg", "ape");
 item.add("Biscoito Laka EM FALTA" , "4.20", "laka.jpg", "ape");
-item.add("Torrada Alho" , "5.50", "torradinha.jpeg", "ape");
+item.add("Torrada Alho EM FALTA" , "5.50", "torradinha.jpeg", "ape");
 item.add("Torrada Bacon" , "5.50", "torradinha.jpeg", "ape");
-item.add("Torrada Queijo EM FALTA" , "5.50", "torradinha.jpeg", "ape");
+item.add("Torrada Queijo" , "5.50", "torradinha.jpeg", "ape");
 item.add("Torrada Ervas Finas" , "5.50", "torradinha.jpeg", "ape");
 
 category.add("Confeitaria", "conf");
