@@ -10,7 +10,7 @@ export let cupons = [
     ["Sextou10", 10],
     ["BNI5", 5],
     ["COMPRA1", 5],
-    ["NIVER1ANO", 10],
+    ["ARRAIA22", 10],
     ["ASSURBS", 15],
 ]
 
