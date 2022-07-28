@@ -125,7 +125,7 @@ item.add("Uva Passa Preta" , "2.80", "Uva Passa Preta.webp", "frutas");
 category.add("Farináceos", "farin");
 item.add("Farinha de Amêndoa" , "11.00", "Farinha de Amêndoa.webp", "farin");
 item.add("Farinha de Amendoim" , "2.60", "farinha_de_amendoim.webp", "farin");
-item.add("Farinha de Aveia" , "1.50", "farinha-de-aveia.png", "farin");
+item.add("Farinha de Aveia EM FALTA" , "1.50", "farinha-de-aveia.png", "farin");
 item.add("Farinha de Arroz" , "1.30", "Farinha de Arroz.jpg", "farin");
 item.add("Farinha de Arroz integral" , "1.30", "Farinha de Arroz integral.webp", "farin");
 item.add("Farinha de Coco Branca" , "3.50", "Farinha de Coco Branca.png", "farin");
@@ -134,7 +134,7 @@ item.add("Farinha de Grão de Bico" , "1.40", "farinha-de-gr_o-de-bico.jpg", "fa
 item.add("Amaranto Flocos" , "7.00", "Amaranto Flocos.jpg", "farin");
 item.add("Amido de Milho" , "1.30", "Amido de Milho.jpg", "farin");
 item.add("Aveia em Flocos Fino" , "1.90", "Aveia em Flocos Fino.webp", "farin");
-item.add("Aveia em Flocos Médio" , "1.90", "Aveia em Flocos Médio.jpg", "farin");
+item.add("Aveia em Flocos Médio EM FALTA " , "1.90", "Aveia em Flocos Médio.jpg", "farin");
 item.add("Farinha de Linhaça Dourada" , "3.00", "Farinha de Linhaça Dourada.webp", "farin");
 item.add("Farinha Maca Peruana" , "8.00", "Farinha Maca Peruana.webp", "farin");
 item.add("Farinha de Quinoa" , "4.90", "Farinha de Quinoa.jpg", "farin");
