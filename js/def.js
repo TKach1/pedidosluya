@@ -7,7 +7,7 @@ item.currency = "R$"; // CURRENCY
 export let cupons = [
     ["Luya15", 15],
     ["NutriIndiara10", 10],
-    ["Sextou10", 10],
+    ["FECHA10", 10],
     ["BNI5", 5],
     ["COMPRA1", 5],
     ["ARRAIA22", 10],
