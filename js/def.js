@@ -106,7 +106,7 @@ category.add("Frutas/ Oleaginosas", "frutas");
 item.add("Ameixas sem caroço" , "8.20", "Ameixas sem caroço.webp", "frutas");
 item.add("Amêndoa Natural" , "11.00", "Amêndoa Natural.jpg", "frutas");
 item.add("Amêndoa Laminada" , "13.00", "amendoa_laminada.png", "frutas");
-item.add("Amêndoa Defumada" , "11.00", "amendoa_defumada.png", "frutas");
+item.add("Amêndoa Defumada EM FALTA" , "11.00", "amendoa_defumada.png", "frutas");
 item.add("Banana Chips com Canela" , "10.00", "Banana Chips.webp", "frutas");
 item.add("Castanha de Caju Caramelizada" , "10.00", "Castanha de Caju Caramelizada.jpg", "frutas");
 item.add("Castanha de Caju C/ Sal" , "12.00", "Castanha de Caju.webp", "frutas");
