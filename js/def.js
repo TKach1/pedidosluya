@@ -68,7 +68,7 @@ item.add("Sálvia em Folhas" , "7.00", "SalviaemFolhas.jpg", "tempero");
 item.add("Tomilho" , "4.80", "tomilho.webp", "tempero");
 item.add("Zattar", "2.50", "zattar.webp" ,"tempero");
 item.add("Zimbro" , "13.00", "Zimbro.png", "tempero");
-item.add("Tempero para feijão" , "4.00", "", "tempero");
+item.add("Tempero para feijão" , "4.00", "feijao.jpg", "tempero");
 
 category.add("Ervanário", "ervanario");
 
