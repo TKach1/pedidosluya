@@ -176,7 +176,7 @@ item.add("Amendoim Tradicional" , "3.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo" , "12.00", "batata-chips-mexicana.jpg", "ape");
 item.add("Drageado de Cappuccino", "19.00", "capuccino.jpeg", "ape");
 item.add("Drageado Crocante", "12.00", "crocante.jpeg", "ape");
-item.add("Drageado Caju Bland , "19.00", "caju.jpeg", "ape");
+item.add("Drageado Caju Bland" , "19.00", "caju.jpeg", "ape");
 item.add("Drageado de Nutella" , "19.00", "nutellas.jpeg", "ape");
 item.add("Drageado de Uva Passa" , "12.00", "uvapassa.jpeg", "ape");
 item.add("Drageado de Banana" , "12.00", "banana.jpeg", "ape");
