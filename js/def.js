@@ -103,7 +103,7 @@ item.add("Tanchagem" , "5.00", "Tanchagem.JPG", "ervanario");
 
 
 category.add("Frutas/ Oleaginosas", "frutas");
-item.add("Ameixas sem caroço" , "8.20", "Ameixas sem caroço.webp", "frutas");
+item.add("Ameixas sem caroço EM FALTA" , "8.20", "Ameixas sem caroço.webp", "frutas");
 item.add("Amêndoa Natural" , "11.00", "Amêndoa Natural.jpg", "frutas");
 item.add("Amêndoa Laminada" , "13.00", "amendoa_laminada.png", "frutas");
 item.add("Amêndoa Defumada EM FALTA" , "11.00", "amendoa_defumada.png", "frutas");
@@ -117,10 +117,10 @@ item.add("Castanha do Pará Quebrada" , "9.00", "Castanha do Pará Quebrada.png"
 item.add("Mix de Frutas" , "11.00", "Mix de Frutas.png", "frutas");
 item.add("Damasco Jumbo " , "11.00", "Damasco-Jumbo.webp", "frutas");
 item.add("Maçã Chips" , "13.00", "maca_desidratada_chips.webp", "frutas");
-item.add("Nozes Maripoza" , "13.00", "Nozes Maripoza.webp", "frutas");
+item.add("Nozes Maripoza EM FALTA " , "13.00", "Nozes Maripoza.webp", "frutas");
 item.add("Noz Pecan" , "11.00", "Noz Pecan.webp", "frutas");
 item.add("Tâmara Jumbo" , "11.00", "Tâmara Jumbo.jpg", "frutas");
-item.add("Uva Passa Preta" , "2.80", "Uva Passa Preta.webp", "frutas");
+item.add("Uva Passa Preta EM FALTA" , "2.80", "Uva Passa Preta.webp", "frutas");
 
 category.add("Farináceos", "farin");
 item.add("Farinha de Amêndoa" , "11.00", "Farinha de Amêndoa.webp", "farin");
@@ -138,7 +138,7 @@ item.add("Aveia em Flocos Médio" , "1.90", "Aveia em Flocos Médio.jpg", "farin
 item.add("Farinha de Linhaça Dourada" , "3.00", "Farinha de Linhaça Dourada.webp", "farin");
 item.add("Farinha Maca Peruana" , "8.00", "Farinha Maca Peruana.webp", "farin");
 item.add("Farinha de Quinoa" , "4.90", "Farinha de Quinoa.jpg", "farin");
-item.add("Farelo de Aveia", "1.70", "Farelo de Aveia.webp", "farin");
+item.add("Farelo de Aveia EM FALTA", "1.70", "Farelo de Aveia.webp", "farin");
 item.add("Psyllium" , "13.00", "Psyllium.webp", "farin");
 
 category.add("Grãos/ Sementes", "graos");
@@ -174,16 +174,15 @@ item.add("Amendoim S/ Pele e S/ Sal" , "3.10", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim S/ Pele e C/ Sal" , "3.10", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim Tradicional" , "3.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo" , "12.00", "batata-chips-mexicana.jpg", "ape");
-item.add("Drageado de Cappuccino", "19.00", "capuccino.jpeg", "ape");
+item.add("Drageado de Cappuccino EM FALTA", "19.00", "capuccino.jpeg", "ape");
 item.add("Drageado Crocante", "12.00", "crocante.jpeg", "ape");
 item.add("Drageado Caju Bland" , "19.00", "caju.jpeg", "ape");
 item.add("Drageado de Nutella" , "19.00", "nutellas.jpeg", "ape");
-item.add("Drageado de Uva Passa" , "12.00", "uvapassa.jpeg", "ape");
+item.add("Drageado de Uva Passa EM FALTA" , "12.00", "uvapassa.jpeg", "ape");
 item.add("Drageado de Banana" , "12.00", "banana.jpeg", "ape");
 item.add("Drageado de Cereja" , "19.00", "dragxereja.jpeg", "ape");
 item.add("Drageado Praline de Amêndoas EM FALTA" , "19.00", "praline.jpeg", "ape");
 item.add("Drageado de Maracujá Gourmet " , "19.00", "dragmarac.jpeg", "ape");
-item.add("Fini Amora" , "7.00", "AMORAS-2.webp", "ape");
 item.add("Fini Bananinha" , "7.00", "Fini Bananinha.jpg", "ape");
 item.add("Fini Beijos de Morango" , "7.00", "Beijos-de-morango-2.webp", "ape");
 item.add("Fini Dentadura" , "7.00", "Fini Dentadura.jpeg", "ape");
