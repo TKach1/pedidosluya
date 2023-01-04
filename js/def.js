@@ -6,10 +6,9 @@ item.currency = "R$"; // CURRENCY
 
 export let cupons = [
     ["Luya15", 15],
-    ["NutriIndiara10", 10],
     ["FECHA10", 10],
     ["BNI5", 5],
-    ["COMPRA1", 5],
+    ["VERAO", 5],
     ["ARRAIA22", 10],
     ["ASSURBS", 15],
 ]
@@ -44,7 +43,6 @@ item.add("Cravo Flor" , "16.00", "CravoFlor.jpg", "tempero");
 item.add("Creme de Cebola" , "2.50", "CremedeCebola.png", "tempero");
 item.add("Curry" , "2.50", "curry.webp", "tempero");
 item.add("Edu Guedes" , "5.80", "tempero-edu-guedes.png", "tempero");
-item.add("Endro" , "3.00", "2457_endro_desidratado.jpg", "tempero");
 item.add("Ervas Finas" , "4.50", "ervasfinas.webp", "tempero");
 item.add("Fit Frango" , "3.60", "", "tempero");
 item.add("Fit Peixe" , "3.60","","tempero");
@@ -66,7 +64,6 @@ item.add("Pimenta Rosa Grãos EM FALTA" , "14.00", "pimentarosagraos.jpg", "temp
 item.add("Sal Rosa Fino" , "1.50", "SalRosaFino.jpg", "tempero");
 item.add("Sal Rosa Grosso" , "1.50", "SalRosaGrosso.webp", "tempero");
 item.add("Salsa Desidratada " , "4.00", "SalsaDesidratada.jpg", "tempero");
-item.add("Sálvia em Folhas" , "7.00", "SalviaemFolhas.jpg", "tempero");
 item.add("Tomilho" , "4.80", "tomilho.webp", "tempero");
 item.add("Zattar", "2.70", "zattar.webp" ,"tempero");
 item.add("Zimbro" , "13.00", "Zimbro.png", "tempero");
@@ -89,7 +86,6 @@ item.add("Erva Doce" , "5.50", "ErvaDoce.webp", "ervanario");
 item.add("Erva Mate" , "2.50", "ErvaMate.jpg", "ervanario");
 item.add("Espinheira Santa" , "5.30", "EspinheiraSanta.webp", "ervanario");
 item.add("Eucalipto Folhas" , "2.00", "EucaliptoFolhas.webp", "ervanario");
-item.add("Folha de Maracujá" , "12.00", "FolhadeMaracuja.webp", "ervanario");
 item.add("Guaco" , "5.00", "Guaco.jpg", "ervanario");
 item.add("Hibiscos" , "4.60", "Hibiscos.jpg", "ervanario");
 item.add("Hortelã" , "3.50", "Hortela.webp", "ervanario");
@@ -99,7 +95,7 @@ item.add("Mate tostado" , "2.00", "Matetostado.jpg", "ervanario");
 item.add("Melissa" , "5.30", "planta-melissa.jpg", "ervanario");
 item.add("Quebra Pedra" , "9.00", "Quebra Pedra.jpg", "ervanario");
 item.add("Sene Folhas" , "1.80", "Sene Folhas.webp", "ervanario");
-item.add("Tanchagem" , "5.00", "Tanchagem.JPG", "ervanario");
+
 
 
 category.add("Frutas/ Oleaginosas", "frutas");
@@ -126,13 +122,9 @@ category.add("Farináceos", "farin");
 item.add("Farinha de Amêndoa" , "11.00", "Farinha de Amêndoa.webp", "farin");
 item.add("Farinha de Amendoim" , "2.60", "farinha_de_amendoim.webp", "farin");
 item.add("Farinha de Aveia " , "1.50", "farinha-de-aveia.png", "farin");
-item.add("Farinha de Arroz" , "1.30", "Farinha de Arroz.jpg", "farin");
-item.add("Farinha de Arroz integral" , "1.30", "Farinha de Arroz integral.webp", "farin");
 item.add("Farinha de Coco Branca" , "3.50", "Farinha de Coco Branca.png", "farin");
-item.add("Farinha de Chia" , "3.30", "Farinha de Chia.webp", "farin");
 item.add("Farinha de Grão de Bico" , "1.40", "farinha-de-gr_o-de-bico.jpg", "farin");
 item.add("Amaranto Flocos " , "7.00", "Amaranto Flocos.jpg", "farin");
-item.add("Amido de Milho" , "1.30", "Amido de Milho.jpg", "farin");
 item.add("Aveia em Flocos Fino" , "1.90", "Aveia em Flocos Fino.webp", "farin");
 item.add("Aveia em Flocos Médio" , "1.90", "Aveia em Flocos Médio.jpg", "farin");
 item.add("Farinha de Linhaça Dourada" , "3.00", "Farinha de Linhaça Dourada.webp", "farin");
@@ -200,7 +192,6 @@ item.add("Torrada Ervas Finas" , "5.90", "torradinha.jpeg", "ape");
 
 category.add("Confeitaria", "conf");
 item.add("Açúcar de coco" , "7.70", "Açúcar de coco.webp", "conf");
-item.add("Açúcar de Confeiteiro" , "3.20", "Açúcar de Confeiteiro.jpg", "conf");
 item.add("Açúcar Demerara" , "1.40", "Açúcar Demerara.jpg", "conf");
 item.add("Açúcar Mascavo Escuro" , "1.50", "Açúcar Mascavo.jpg", "conf");
 item.add("Bicarbonato de Sódio" , "1.60", "Bicarbonato de Sódio.webp", "conf");
