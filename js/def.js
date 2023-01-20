@@ -131,7 +131,7 @@ item.add("Farinha de Linhaça Dourada" , "3.00", "Farinha de Linhaça Dourada.we
 item.add("Farinha Maca Peruana" , "8.00", "Farinha Maca Peruana.webp", "farin");
 item.add("Farinha de Quinoa" , "4.90", "Farinha de Quinoa.jpg", "farin");
 item.add("Farelo de Aveia ", "1.70", "Farelo de Aveia.webp", "farin");
-item.add("Psyllium EM FATLTA" , "13.00", "Psyllium.webp", "farin");
+item.add("Psyllium" , "13.00", "Psyllium.webp", "farin");
 
 category.add("Grãos/ Sementes", "graos");
 item.add("Canjica Branca" , "1.80", "Canjica Branca.webp", "graos");
@@ -153,8 +153,8 @@ item.add("Quinoa Preta" , "5.50", "quinoa-preta1.png", "graos");
 item.add("Quinoa Vermelha" , "5.50", "quinoa-vermelha.png", "graos");
 
 category.add("Aperitivos/ Doces", "ape");
-item.add("Aipim Chips Cebola/Salsa " , "9.50", "aipim_cebola_e_salsa.jpg", "ape");
-item.add("Aipim Chips EM FALTA" , "9.50", "Aipim Chips.png", "ape");
+item.add("Aipim Chips Cebola/Salsa EM FALTA " , "9.50", "aipim_cebola_e_salsa.jpg", "ape");
+item.add("Aipim Chips" , "9.50", "Aipim Chips.png", "ape");
 item.add("Aipim Chips Bacon " , "9.50", "Aipim Chips.png", "ape");
 item.add("Amendoim Cebola e Salsa" , "3.50", "Amendoim Cebola e Salsa.webp", "ape");
 item.add("Amendoim com Chocolate" , "4.00", "Amendoim com Chocolate.webp", "ape");
@@ -165,12 +165,12 @@ item.add("Amendoim S/ Pele e S/ Sal " , "3.10", "amendoim_sem_pele.webp", "ape")
 item.add("Amendoim S/ Pele e C/ Sal" , "3.10", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim Tradicional" , "3.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo " , "13.50", "batata-chips-mexicana.jpg", "ape");
-item.add("Drageado de Cappuccino EM FALTA", "19.50", "capuccino.jpeg", "ape");
+item.add("Drageado de Cappuccino", "19.50", "capuccino.jpeg", "ape");
 item.add("Drageado Crocante", "12.00", "crocante.jpeg", "ape");
 item.add("Drageado Caju Bland EM FALTA" , "19.50", "caju.jpeg", "ape");
 item.add("Drageado de Nutella " , "19.50", "nutellas.jpeg", "ape");
-item.add("Drageado de Uva Passa EM FALTA" , "12.00", "uvapassa.jpeg", "ape");
-item.add("Drageado de Banana EM FALTA" , "12.00", "banana.jpeg", "ape");
+item.add("Drageado de Uva Passa" , "12.00", "uvapassa.jpeg", "ape");
+item.add("Drageado de Banana" , "12.00", "banana.jpeg", "ape");
 item.add("Drageado de Cereja EM FALTA" , "19.50", "dragxereja.jpeg", "ape");
 item.add("Drageado Praline de Amêndoas EM FALTA" , "19.50", "praline.jpeg", "ape");
 item.add("Drageado de Maracujá Gourmet" , "19.50", "dragmarac.jpeg", "ape");
@@ -185,7 +185,7 @@ item.add("Milho Espanhol Mostarda/Mel" , "7.00", "Milho Espanhol MostardaMel.jpg
 item.add("Biscoito Vaidosa " , "4.90", "Vaidosa.jpg", "ape");
 item.add("Biscoito Laka EM FALTA" , "4.90", "laka.jpg", "ape");
 item.add("Biscoito Goiabada" , "4.90", " ", "ape");
-item.add("Torrada Alho EM FALTA" , "5.90", "torradinha.jpeg", "ape");
+item.add("Torrada Alho" , "5.90", "torradinha.jpeg", "ape");
 item.add("Torrada Bacon" , "5.90", "torradinha.jpeg", "ape");
 item.add("Torrada Queijo" , "5.90", "torradinha.jpeg", "ape");
 item.add("Torrada Ervas Finas" , "5.90", "torradinha.jpeg", "ape");
@@ -207,6 +207,6 @@ item.add("Sagu" , "2.20", "Sagu.jpg", "conf");
 item.add("Sucrilhos Choco Boll" , "4.00", "Sucrilhos Choco Boll.jpg", "conf");
 item.add("Sucrilhos Com Açúcar" , "3.10", "Sucrilhos Com Açúcar.jpg", "conf");
 item.add("Sucrilhos Sem Açúcar" , "3.10", "sucrilhos-acucar.png", "conf");
-item.add("Tapioca 500G EM FALTA" , "7.00", "Tapioca.webp", "conf");
-item.add("Tapioca Granulada 500G EM FALT " , "7.00", "Tapioca.webp", "conf");
+item.add("Tapioca 500G" , "7.00", "Tapioca.webp", "conf");
+item.add("Tapioca Granulada 500G EM FALTA " , "7.00", "Tapioca.webp", "conf");
 item.add("Xilitol Cristal " , "7.80", "Xilitol Cristal.webp", "conf");
