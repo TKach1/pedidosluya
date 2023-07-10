@@ -46,7 +46,7 @@ item.add("Curry" , "4.00", "curry.webp", "tempero");
 item.add("Edu Guedes" , "6.00", "tempero-edu-guedes.png", "tempero");
 item.add("Ervas Finas" , "4.50", "ervasfinas.webp", "tempero");
 item.add("Fit Peixe" , "3.60","","tempero");
-item.add("Fumaca em Pó" , "4,50","","");
+item.add("Fumaca em Pó" , "4,50","","tempero");
 item.add("Gengibre Pó" , "4.00", "GengibrePó.jpg", "tempero");
 item.add("Lemon Pepper" , "5.00", "LemonPepper.webp", "tempero");
 item.add("Louro em Folhas" , "6.00", "LouroemFolhas.jpg", "tempero");
