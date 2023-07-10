@@ -11,7 +11,6 @@ export let cupons = [
     ["VERAO", 5],
     ["ARRAIA22", 10],
     ["ASSURBS", 15],
-]
 
 button.add("Temperos e Especiarias", "tempero");
 button.add("Ervanário", "ervanario");
