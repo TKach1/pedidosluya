@@ -70,7 +70,7 @@ item.add("Salsa Desidratada " , "4.00", "SalsaDesidratada.jpg", "tempero");
 item.add("Tomilho" , "4.80", "tomilho.webp", "tempero");
 item.add("Vinagrete" , "4.50", "", "tempero");
 item.add("Zattar", "2.70", "zattar.webp" ,"tempero");
-item.add("Tempero para feijão" , "4.00", "feijao.jpg", "tempero");
+item.add("Tempero para feijão" , "4.00", "", "tempero");
 
 
 category.add("Ervanário", "ervanario");
