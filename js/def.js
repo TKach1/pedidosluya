@@ -153,7 +153,7 @@ item.add("Linhaça Dourada" , "3.00", "linhaca-dourada.png", "graos");
 item.add("Linhaça Marrom" , "2.00", "Linhaça Marrom.jpg", "graos");
 item.add("Milho de Pipoca" , "1.60", "Milho de Pipoca.webp", "graos");
 item.add("Milho de Pipoca Gourmet" , "5.00", "Milho de Pipoca Gourmet.webp", "graos");
-item.add("Milho de Pipoca Preto" , "7.00", "graos");
+item.add("Milho de Pipoca Preto" , "7.00", "", "graos");
 item.add("Pepita de Girassol" , "3.80", "Pepita de Girassol.jpg", "graos");
 item.add("PTS" , "3.60", "PTS.webp", "graos");
 item.add("Semente de Abóbora ", "8.50", "semente_de_abobora_sem_casca.webp", "graos");
