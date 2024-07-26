@@ -212,7 +212,7 @@ item.add("Cacau em Pó " , "3.00", "Cacau em Pó.webp", "conf");
 item.add("Chocolate Confete" , "5.00", "Chocolate Confete.jpg", "conf");
 item.add("Chocolate em Pó 70%" , "10.00", "Chocolate em Pó.png", "conf");
 item.add("Coco Flocos Médio S/ Açúcar" , "5.50", "Coco Flocos.png", "conf");
-item.add("Gotas de Chocolate" , "8.00", "gotas chocolate.webp", "conf");
+item.add("Gotas de Chocolate Belga" , "8.00", "gotas chocolate.webp", "conf");
 item.add("Laranja Premium Chá/Drinks" , "12.00", "Laranja Premium.jpg", "conf");
 item.add("Leite de Coco em Pó" , "9.00", "Leite de Coco em Pó.webp", "conf");
 item.add("Polvilho Azedo" , "1.50", "Polvilho-Azedo.jpg", "conf");
