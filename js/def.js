@@ -71,7 +71,7 @@ item.add("Salsa Desidratada " , "4.50", "SalsaDesidratada.jpg", "tempero");
 item.add("Tomilho" , "4.80", "tomilho.webp", "tempero");
 item.add("Vinagrete" , "6.00", "", "tempero");
 item.add("Tempero para feijão" , "6.50", "", "tempero");
-
+item.add("Tempero paranaense" , "4.90", "tempero_paranaense.webp", "tempero");
 
 category.add("Ervanário", "ervanario");
 
@@ -105,8 +105,6 @@ item.add("Picão Preto" , "4.00", "picao-preto.webp", "ervanario");
 item.add("Quebra Pedra" , "11.00", "Quebra Pedra.jpg", "ervanario");
 item.add("Sene Folhas" , "1.80", "Sene Folhas.webp", "ervanario");
 item.add("Salvia" , "7.00", "salvia.webp", "ervanario");
-
-
 
 category.add("Frutas/ Oleaginosas", "frutas");
 item.add("Ameixas sem caroço" , "7.20", "Ameixas sem caroço.webp", "frutas");
@@ -189,15 +187,17 @@ item.add("Amendoim S/ Pele e S/ Sal " , "3.50", "amendoim_sem_pele.webp", "ape")
 item.add("Amendoim S/ Pele e C/ Sal" , "3.50", "amendoim_sem_pele.webp", "ape");
 item.add("Amendoim Tradicional" , "4.50", "amendoim.jpg", "ape");
 item.add("Batata Chips Queijo " , "16.80", "batata-chips-mexicana.jpg", "ape");
+item.add("Batata mexicana tradicional" , "16.80", "batata-chips-mexicana.jpg", "ape");
 item.add("Banana Chips com Canela" , "12.00", "Banana Chips.webp", "ape");
 item.add("Banana Chips Salgada" , "12.00", "Banana Chips.webp", "ape");
 item.add("Coquinho caramelizado com leite condensado" , "6.60", "coco_caramelizado.jpeg", "ape");
 item.add("Drageado de Cappuccino", "23,50", "capuccino.jpeg", "ape");
-item.add("Drageado Crocante", "15.50", "crocante.jpeg", "ape");
+item.add("Drageado Crocante", "17.50", "crocante.jpeg", "ape");
+item.add("Drageado Crocante Chocolate Branco", "17.50", "dragea_crocante_branca.jpg", "ape");
 item.add("Drageado Caju Bland " , "23,50", "caju.jpeg", "ape");
 item.add("Drageado de Nutella " , "23,50", "nutellas.jpeg", "ape");
-item.add("Drageado de Uva Passa" , "15.50", "uvapassa.jpeg", "ape");
-item.add("Drageado de Banana" , "15.50", "banana.jpeg", "ape");
+item.add("Drageado de Uva Passa" , "17.50", "uvapassa.jpeg", "ape");
+item.add("Drageado de Banana" , "17.50", "banana.jpeg", "ape");
 item.add("Drageado de Limão Siciliano " , "23,50", "dragea_limao.webp", "ape");
 item.add("Drageado de Cereja " , "23,50", "dragxereja.jpeg", "ape");
 item.add("Drageado de Maracujá Gourmet" , "23,50", "dragmarac.jpeg", "ape");
@@ -209,7 +209,7 @@ item.add("Fini Ursinho Brilho" , "7.90", "Fini Minhoca Brilho.jpg", "ape");
 item.add("Fini Minhoca Cítrica" , "7.90", "Fini Minhoca Cítrica.jpg", "ape");
 item.add("Bala de Goma" , "4.00", "balagoma.webp", "ape");
 item.add("(EM FALTA) Laranja Cristal Tiras" , "8.90", "Laranja Cristal Tiras.webp", "ape");
-item.add("Milho Espanhol Mostarda/Mel" , "8.50", "Milho Espanhol MostardaMel.jpg", "ape");
+item.add("Milho Espanhol Mostarda/Mel" , "12.00", "Milho Espanhol MostardaMel.jpg", "ape");
 item.add("Mix de Vegetais Chips" , "13.00", "mixvegetais.webp", "ape");
 item.add("Biscoito Vaidosa " , "5.80", "Vaidosa.jpg", "ape");
 item.add("Biscoito Laka" , "5.80", "laka.jpg", "ape");
